@@ -2,6 +2,7 @@ local lsp = require('lsp-zero').preset("recommended")
 
 lsp.ensure_installed({
 	"ast_grep", 
+	"clangd", 
 	"biome", 
 	"grammarly", 
 	"bashls", 
